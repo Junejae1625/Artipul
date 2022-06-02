@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import { ChangeEvent } from 'react'
 
 interface ICreateUserInputProps {
-  type?: string
+  type?: 'text' | 'password'
   onChange?: (e: ChangeEvent<HTMLInputElement>) => void
   defaultValue?: string
   readonly?: boolean
